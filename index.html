@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="lib/css/styles.css">
+    <script>
+        $.get("lib/includes/sidemenu.html", function (data) {
+            $("#sidemenu").html(data);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <embed type="text/html" src="lib/includes/top-header.html">
+        </header>
+        <div class="wrapper" id="sidemenu"></div>
+
+        <article>
+            <h4>Description:</h4>
+            <p>API documentation for APP and Super Admin </p>
+            <!-- <ul>
+                <li>
+                    <span class="headding">URL:</span>
+                    <div class="description alert alert-warning">/v1/updateCard</div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Method:</span>
+                    <div class="description alert alert-secondary">POST</div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">URL Params:</span>
+                    <div class="description alert alert-primary">name, email, pwd
+                        <br>asdsa, dasd
+                        <br>asdsadsa</div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Data Params:</span>
+                    <div class="description alert alert-warning"></div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Success Response:</span>
+                    <div class="description alert alert-success">
+                        {"status":"success","message":"Reminder updated successfully"}
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Error Response:</span>
+                    <div class="description alert alert-danger">
+                        {"status":"error","message":"The card is not avialable to finish"}
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Sample Call:</span>
+                    <div class="description alert alert-dark"></div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="headding">Notes:</span>
+                    <div class="description">/updateCard</div>
+                </li>
+            </ul> -->
+
+
+
+        </article>
+
+        <footer>
+            <embed type="text/html" src="lib/includes/footer.html">
+        </footer>
+
+    </div>
+
+</body>
+<script>
+
+</script>
+
+</html>

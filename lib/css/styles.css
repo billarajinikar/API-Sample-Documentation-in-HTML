@@ -1,0 +1,109 @@
+div.container {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+header {
+  max-height: 90px;
+}
+footer {
+  max-height: 40px;
+}
+
+nav {
+  float: left;
+  max-width: 180px;
+  margin: 0;
+  padding: 1em;
+}
+#sidebar {
+  min-height: 600px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+article {
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+  min-height: 500px;
+}
+.content {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.headding {
+  font-weight: bold;
+  font-size: 18px;
+}
+.cnt {
+  padding: 15px;
+}
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar {
+  /* don't forget to add all the previously mentioned styles here too */
+  background: #bcbdbe;
+  color: #000000;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+#sidebar .sidebar-header {
+  padding: 16px;
+  background: #bcbdbe;
+}
+
+#sidebar ul.components {
+  padding: 16px 0;
+  border-bottom: 1px solid #bcbdbe;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+#sidebar ul li a:hover {
+  color: #bcbdbe;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #bcbdbe;
+}
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
